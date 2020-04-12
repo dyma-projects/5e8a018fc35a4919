@@ -1,0 +1,10 @@
+<p>exercice1 works!</p>
+
+<!-- double data binding (ngModel) et liaison d'événement (mouseleave) -->
+<input [(ngModel)]="leType" (mouseleave)="doNothing()">
+<hr>
+<!-- string interpolation -->
+<div>Input type : {{leType}} </div>
+<!-- liaison de propriété -->
+<input [type]="leType" />
+<hr>
